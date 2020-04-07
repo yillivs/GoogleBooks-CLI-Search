@@ -27,9 +27,9 @@ public class APIClient {
     }
 
     /**
-     * Get top
-     * @param query
-     * @return
+     * Get top 5 results from google books api
+     * @param query search criteria
+     * @return JSON String with response from API
      */
     public String getBooks(String query){
         try
