@@ -3,6 +3,8 @@ package sanchez.eighthLight.controllers;
 import org.junit.Test;
 import sanchez.eighthLight.models.Volume;
 
+import static org.junit.Assert.assertEquals;
+
 public class BookControllerTest {
 
     @Test
@@ -13,11 +15,6 @@ public class BookControllerTest {
 
         Volume result =  test.getBookList(query);
 
-        for(int i = 0; i < result.getItems().length; i++){
-            System.out.println(result.getItems()[i].getVolumeInfo().getTitle());
-        }
-
-
-
+        assertEquals(result.getKind(), "books#volume");
     }
 }

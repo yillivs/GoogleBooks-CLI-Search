@@ -2,7 +2,8 @@ package sanchez.eighthLight.clients;
 
 
 import org.junit.Test;
-import sanchez.eighthLight.utilities.JSONUtility;
+import sanchez.eighthLight.controllers.BookController;
+import sanchez.eighthLight.models.Volume;
 
 import static org.junit.Assert.assertEquals;
 
@@ -10,12 +11,12 @@ public class APIClientTest {
 
     @Test
     public void testGet(){
-        JSONUtility jsonUtility = new JSONUtility();
-        APIClient test = new APIClient(jsonUtility.readApiKey());
+        BookController bookController = new BookController();
         String query = "Empire of the summer moon";
 
-        String result = test.getBooks(query);
+        Volume volume = bookController.getBookList(query);
 
-        System.out.println(result);
+
+        assertEquals(volume.getKind(), "books#volume");
     }
 }

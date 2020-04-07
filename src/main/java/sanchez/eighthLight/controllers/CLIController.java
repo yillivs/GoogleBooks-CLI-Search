@@ -12,7 +12,10 @@ import java.util.ArrayList;
 public class CLIController {
 
 
-
+    /**
+     * Print and format Book
+     * @param book book to be printed
+     */
     private static void printBook(Book book){
         System.out.printf("Title: '%s'\n", book.getTitle());
 
@@ -26,6 +29,10 @@ public class CLIController {
 
     }
 
+    /**
+     * Print and format reading list
+     * @param readingList list of books to be printed
+     */
     private static void printReadingList(ArrayList<Book> readingList){
         System.out.println("Reading List:");
         for(Book book: readingList){
@@ -33,7 +40,14 @@ public class CLIController {
         }
     }
 
-
+    /**
+     * Method handles retrieval of list of books and selection to add to reading list
+     * @param readingList list of books that correspond to reading list
+     * @param reader reader for user input
+     * @param bookController book controller for call
+     * @param readingListController controller for reading list manipulation
+     * @return status 0 if user wants to quit; 1 to continue.
+     */
     public static int cliBooksQuery(ArrayList<Book> readingList,BufferedReader reader, BookController bookController, ReadingListController readingListController){
         String input;
         int status = 1;
@@ -76,6 +90,9 @@ public class CLIController {
         return status;
     }
 
+    /**
+     * Runs application
+     */
     public static void run(){
         BookController bookController = new BookController();
         ReadingListController readingListController = new ReadingListController();

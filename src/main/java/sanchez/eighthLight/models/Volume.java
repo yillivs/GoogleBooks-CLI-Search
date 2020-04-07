@@ -1,5 +1,8 @@
 package sanchez.eighthLight.models;
 
+/**
+ * Volume class; modeled off JSON response from BooksAPI
+ */
 public class Volume {
     private Items[] items;
 

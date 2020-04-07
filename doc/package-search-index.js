@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"sanchez.eighthLight"},{"l":"sanchez.eighthLight.clients"},{"l":"sanchez.eighthLight.controllers"},{"l":"sanchez.eighthLight.models"},{"l":"sanchez.eighthLight.utilities"}]
