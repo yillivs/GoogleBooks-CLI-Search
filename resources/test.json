@@ -1,0 +1,458 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 3119,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "m6VWBwMAox4C",
+      "etag": "aAsN1e3SbDI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/m6VWBwMAox4C",
+      "volumeInfo": {
+        "title": "Empire of the Summer Moon",
+        "subtitle": "Quanah Parker and the Rise and Fall of the Comanches, the Most Powerful Indian Tribe in American History",
+        "authors": [
+          "S. C. Gwynne"
+        ],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2010-05-25",
+        "description": "The Epic New York Times Bestseller Finalist for the Pulitzer Prize Finalist for the National Book Critics Circle Award A New York Times Notable Book Winner of the Texas Book Award Winner of the Oklahoma Book Award This stunning historical account of the forty-year battle between Comanche Indians and white settlers for control of the American West “is nothing short of a revelation…will leave dust and blood on your jeans” (The New York Times Book Review). Empire of the Summer Moon spans two astonishing stories. The first traces the rise and fall of the Comanches, the most powerful Indian tribe in American history. The second entails one of the most remarkable narratives ever to come out of the Old West: the epic saga of the pioneer woman Cynthia Ann Parker and her mixed-blood son Quanah, who became the last and greatest chief of the Comanches. Although readers may be more familiar with the tribal names Apache and Sioux, it was in fact the legendary fighting ability of the Comanches that determined when the American West opened up. Comanche boys became adept bareback riders by age six; full Comanche braves were considered the best horsemen who ever rode. They were so masterful at war and so skillful with their arrows and lances that they stopped the northern drive of colonial Spain from Mexico and halted the French expansion westward from Louisiana. White settlers arriving in Texas from the eastern United States were surprised to find the frontier being rolled backward by Comanches incensed by the invasion of their tribal lands. The war with the Comanches lasted four decades, in effect holding up the development of the new American nation. Gwynne’s exhilarating account delivers a sweeping narrative that encompasses Spanish colonialism, the Civil War, the destruction of the buffalo herds, and the arrival of the railroads, and the amazing story of Cynthia Ann Parker and her son Quanah—a historical feast for anyone interested in how the United States came into being. Hailed by critics, S. C. Gwynne’s account of these events is meticulously researched, intellectually provocative, and, above all, thrillingly told. Empire of the Summer Moon announces him as a major new writer of American history.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781416597155"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1416597158"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 384,
+        "printType": "BOOK",
+        "categories": [
+          "History"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 3,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.15.15.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=m6VWBwMAox4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=m6VWBwMAox4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=m6VWBwMAox4C&printsec=frontcover&dq=Empire+of+the+summer+moon&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=m6VWBwMAox4C&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=m6VWBwMAox4C"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 13.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 13.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=m6VWBwMAox4C&rdid=book-m6VWBwMAox4C&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 13990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 13990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Empire_of_the_Summer_Moon-sample-epub.acsm?id=m6VWBwMAox4C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=m6VWBwMAox4C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The Epic New York Times Bestseller Finalist for the Pulitzer Prize Finalist for the National Book Critics Circle Award A New York Times Notable Book Winner of the Texas Book Award Winner of the Oklahoma Book Award This stunning historical ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "YBnqAgAAQBAJ",
+      "etag": "ABOLGT+9cTY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/YBnqAgAAQBAJ",
+      "volumeInfo": {
+        "title": "Empire of the Summer Moon",
+        "subtitle": "Quanah Parker and the Rise and Fall of the Comanches, the Most Powerful Indian Tribe in American History",
+        "authors": [
+          "S. C. Gwynne"
+        ],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2010",
+        "description": "Describes the actions of both whites and Comanches during a 40-year war over territory, in a story that begins with the kidnapping of a white girl, who grew up to marry a Comanche chief and have a son, Quanah, who became a great warrior.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781416591061"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1416591060"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 371,
+        "printType": "BOOK",
+        "categories": [
+          "Biography & Autobiography"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.4.1.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=YBnqAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=YBnqAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=YBnqAgAAQBAJ&printsec=frontcover&dq=Empire+of+the+summer+moon&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=YBnqAgAAQBAJ&dq=Empire+of+the+summer+moon&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Empire_of_the_Summer_Moon.html?hl=&id=YBnqAgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=YBnqAgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Describes the actions of both whites and Comanches during a 40-year war over territory, in a story that begins with the kidnapping of a white girl, who grew up to marry a Comanche chief and have a son, Quanah, who became a great warrior."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "mLSeBAAAQBAJ",
+      "etag": "T33BTUjSjxA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/mLSeBAAAQBAJ",
+      "volumeInfo": {
+        "title": "Empire of the Summer Moon",
+        "subtitle": "Quanah Parker and the Rise and Fall of the Comanches, the Most Powerful Indian Tribe in American History",
+        "authors": [
+          "S.C. Gwynne"
+        ],
+        "publisher": "Hachette UK",
+        "publishedDate": "2011-07-07",
+        "description": "In the tradition of Bury My Heart at Wounded Knee, a stunningly vivid historical account of the forty-year battle between Comanche Indians and white settlers for control of the American West, centering on Quanah, the greatest Comanche chief of them all. Empire of the Summer Moon spans two astonishing stories. The first traces the rise and fall of the Comanches, the most powerful Indian tribe in American history. The second is the epic saga of the pioneer woman Cynthia Ann Parker and her mixed-blood son Quanah, who became the last and greatest chief of the Comanches. Although readers may be more familiar with the tribal names Apache and Sioux, it was in fact the legendary fighting ability of the Comanches that determined just how and when the American West opened up. Comanche boys became adept bareback riders by age six; full Comanche braves were considered the best horsemen who ever rode. They were so masterful at war and so skillful with their arrows and lances that they stopped the northern drive of colonial Spain from Mexico and halted the French expansion westward from Louisiana. White settlers arriving in Texas from the eastern United States were surprised to find the frontier being rolled backward by Comanches incensed by the invasion of their tribal lands. Against this backdrop Gwynne presents the compelling drama of Cynthia Ann Parker, a nine-year-old girl who was kidnapped by Comanches in 1836. She grew to love her captors and became infamous as the \"White Squaw\" who refused to return until her tragic capture by Texas Rangers in 1860. More famous still was her son Quanah, a warrior who was never defeated and whose guerrilla wars in the Texas Panhandle made him a legend. S. C. Gwynne's account of these events is meticulously researched, intellectually provocative, and, above all, thrillingly told.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781849018203"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1849018200"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 496,
+        "printType": "BOOK",
+        "categories": [
+          "History"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 3,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.4.5.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=mLSeBAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=mLSeBAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=mLSeBAAAQBAJ&dq=Empire+of+the+summer+moon&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=mLSeBAAAQBAJ&dq=Empire+of+the+summer+moon&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Empire_of_the_Summer_Moon.html?hl=&id=mLSeBAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=mLSeBAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Empire of the Summer Moon spans two astonishing stories. The first traces the rise and fall of the Comanches, the most powerful Indian tribe in American history."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "zROKDwAAQBAJ",
+      "etag": "PBiKDgKbQzg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/zROKDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Hymns of the Republic",
+        "subtitle": "The Story of the Final Year of the American Civil War",
+        "authors": [
+          "S. C. Gwynne"
+        ],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2019-10-29",
+        "description": "From the New York Times bestselling and award-winning author of Empire of the Summer Moon and Rebel Yell comes “a masterwork of history” (Lawrence Wright, author of God Save Texas), the spellbinding, epic account of the last year of the Civil War. The fourth and final year of the Civil War offers one of the most compelling narratives and one of history’s great turning points. Now, Pulitzer Prize finalist S.C. Gwynne breathes new life into the epic battle between Robert E. Lee and Ulysses S. Grant; the advent of 180,000 black soldiers in the Union army; William Tecumseh Sherman’s March to the Sea; the rise of Clara Barton; the election of 1864 (which Lincoln nearly lost); the wild and violent guerrilla war in Missouri; and the dramatic final events of the war, including Lee’s surrender at Appomattox and the murder of Abraham Lincoln. “A must-read for Civil War enthusiasts” (Publishers Weekly), Hymns of the Republic offers many surprising angles and insights. Robert E. Lee, known as a great general and Southern hero, is presented here as a man dealing with frustration, failure, and loss. Ulysses S. Grant is known for his prowess as a field commander, but in the final year of the war he largely fails at that. His most amazing accomplishments actually began the moment he stopped fighting. William Tecumseh Sherman, Gwynne argues, was a lousy general, but probably the single most brilliant man in the war. We also meet a different Clara Barton, one of the greatest and most compelling characters, who redefined the idea of medical care in wartime. And proper attention is paid to the role played by large numbers of black union soldiers—most of them former slaves. Popular history at its best, Hymns of the Republic reveals the creation that arose from destruction in this “engrossing…riveting” (Kirkus Reviews, starred review) read.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781501116247"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "150111624X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 416,
+        "printType": "BOOK",
+        "categories": [
+          "History"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.8.7.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=zROKDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=zROKDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=zROKDwAAQBAJ&printsec=frontcover&dq=Empire+of+the+summer+moon&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=zROKDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=zROKDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 14.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 14.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=zROKDwAAQBAJ&rdid=book-zROKDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 14990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 14990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Hymns_of_the_Republic-sample-epub.acsm?id=zROKDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=zROKDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Popular history at its best, Hymns of the Republic reveals the creation that arose from destruction in this “engrossing…riveting” (Kirkus Reviews, starred review) read."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "nTpvAAAAQBAJ",
+      "etag": "fkA9fef3yho",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/nTpvAAAAQBAJ",
+      "volumeInfo": {
+        "title": "Rebel Yell",
+        "subtitle": "The Violence, Passion, and Redemption of Stonewall Jackson",
+        "authors": [
+          "S. C. Gwynne"
+        ],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2014-09-30",
+        "description": "Finalist for the National Book Critics Circle Award, the epic New York Times bestselling account of how Civil War general Thomas “Stonewall” Jackson became a great and tragic national hero. Stonewall Jackson has long been a figure of legend and romance. As much as any person in the Confederate pantheon—even Robert E. Lee—he embodies the romantic Southern notion of the virtuous lost cause. Jackson is also considered, without argument, one of our country’s greatest military figures. In April 1862, however, he was merely another Confederate general in an army fighting what seemed to be a losing cause. But by June he had engineered perhaps the greatest military campaign in American history and was one of the most famous men in the Western world. Jackson’s strategic innovations shattered the conventional wisdom of how war was waged; he was so far ahead of his time that his techniques would be studied generations into the future. In his “magnificent Rebel Yell…S.C. Gwynne brings Jackson ferociously to life” (New York Newsday) in a swiftly vivid narrative that is rich with battle lore, biographical detail, and intense conflict among historical figures. Gwynne delves deep into Jackson’s private life and traces Jackson’s brilliant twenty-four-month career in the Civil War, the period that encompasses his rise from obscurity to fame and legend; his stunning effect on the course of the war itself; and his tragic death, which caused both North and South to grieve the loss of a remarkable American hero.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781451673302"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1451673302"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 688,
+        "printType": "BOOK",
+        "categories": [
+          "History"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 10,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.22.21.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=nTpvAAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=nTpvAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=nTpvAAAAQBAJ&printsec=frontcover&dq=Empire+of+the+summer+moon&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=nTpvAAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=nTpvAAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 13.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 13.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=nTpvAAAAQBAJ&rdid=book-nTpvAAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 13990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 13990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Rebel_Yell-sample-epub.acsm?id=nTpvAAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=nTpvAAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Finalist for the National Book Critics Circle Award, the epic New York Times bestselling account of how Civil War general Thomas “Stonewall” Jackson became a great and tragic national hero."
+      }
+    }
+  ]
+}

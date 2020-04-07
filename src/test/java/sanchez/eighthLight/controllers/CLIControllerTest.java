@@ -13,7 +13,6 @@ public class CLIControllerTest {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         CLIController testController = new CLIController();
         BookController bookController = new BookController();
-        testController.cliBooksQuery(reader, bookController);
         }
 
 }

@@ -60,7 +60,7 @@ public class APIClient {
         } catch (ExecutionException e) {
             e.printStackTrace();
         } catch (TimeoutException e) {
-            e.printStackTrace();
+            System.err.println("Google API's timeout, could not retreive CompletableFuture in given timeframe.");
         }
          catch (UnsupportedEncodingException e){
             e.printStackTrace();
