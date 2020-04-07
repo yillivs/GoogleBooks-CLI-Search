@@ -12,7 +12,7 @@ public class APIClientTest {
     public void testGet(){
         JSONUtility jsonUtility = new JSONUtility();
         APIClient test = new APIClient(jsonUtility.readApiKey());
-        String query = "Empire+of+the+summer+moon";
+        String query = "Empire of the summer moon";
 
         String result = test.getBooks(query);
 

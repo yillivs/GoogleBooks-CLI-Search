@@ -7,11 +7,11 @@ public class BookTest {
 
     @Test
     public void testBook(){
-        String author = "J.K. Rowling";
+        String[] author = {"J.K. Rowling"};
         String title = "Harry Potter";
         String publisher = "Bloomsbury Publishing";
 
-        Book testBook1 = new Book("J.K. Rowling", "Harry Potter", "Bloomsbury Publishing");
+        Book testBook1 = new Book(author, "Harry Potter", "Bloomsbury Publishing");
 
         Book testBook2 = new Book();
         testBook2.setAuthor(author);

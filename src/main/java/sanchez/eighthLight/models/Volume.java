@@ -1,6 +1,6 @@
 package sanchez.eighthLight.models;
 
-public class GoogleBook {
+public class Volume {
     private Items[] items;
 
     private String totalItems;

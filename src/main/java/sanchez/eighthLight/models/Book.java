@@ -5,23 +5,23 @@ package sanchez.eighthLight.models;
  */
 public class Book {
 
-    private String author;
+    private String[] author;
     private String title;
     private String publisher;
 
     public Book(){}
 
-    public Book(String a, String t, String p){
+    public Book(String[] a, String t, String p){
         this.author = a;
         this.title = t;
         this.publisher = p;
     }
 
-    public void setAuthor(String author) {
+    public void setAuthor(String[] author) {
         this.author = author;
     }
 
-    public String getAuthor() {
+    public String[] getAuthor() {
         return author;
     }
 
