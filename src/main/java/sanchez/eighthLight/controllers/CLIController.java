@@ -8,7 +8,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.concurrent.ExecutionException;
 
 public class CLIController {
 
@@ -18,10 +17,10 @@ public class CLIController {
      * @param book book to be printed
      */
     private static void printBook(Book book){
-        System.out.printf("Title: '%s'\n", book.getTitle());
+        System.out.printf("Title: '%s'", book.getTitle());
 
         if(book.getAuthor() != null) {
-            System.out.print("Author(s): ");
+            System.out.print("\nAuthor(s): ");
             for (String author : book.getAuthor()) {
                 System.out.print(author + " ");
             }
@@ -89,7 +88,7 @@ public class CLIController {
                 System.out.println("Invalid command.");
             }
         } catch (Exception e){
-            System.err.println("Please enter a numeric value for reading list selection");
+            System.err.println("Please enter a numeric value for reading list selection " + e.getMessage());
         }
         if(status != 0)
             System.out.println("Enter one of the following commands.\n's': Search\n'r': View reading list\n'q': Quit");
