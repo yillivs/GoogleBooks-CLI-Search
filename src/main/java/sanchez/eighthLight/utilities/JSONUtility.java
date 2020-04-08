@@ -24,15 +24,9 @@ public class JSONUtility {
 
             result = (String) jsonObj.get("key");
 
-
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (ParseException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
+        } catch (Exception e) {
+            System.err.println("Exception thrown: " + e.getMessage());
         }
         return result;
     }
-
 }

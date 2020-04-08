@@ -8,6 +8,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.concurrent.ExecutionException;
 
 public class CLIController {
 
@@ -60,29 +61,34 @@ public class CLIController {
             input = reader.readLine();
             Volume volume = bookController.getBookList(input);
 
-                for (Volume.Items b: volume.getItems()) {
-                    books.add(new Book(b.getVolumeInfo().getAuthors(),b.getVolumeInfo().getTitle(), b.getVolumeInfo().getPublisher()));
-                }
-                int index = 0;
-                for(Book b: books){
-                    System.out.printf("Book No. %d\n",index++);
-                    printBook(b);
-                }
-                System.out.println("Enter Book No. [0-4] to add Book to reading list; 0 to cancel.");
-                input = reader.readLine();
+                if(Integer.parseInt(volume.getTotalItems()) > 0) {
+                    for (Volume.Items b : volume.getItems()) {
+                        books.add(new Book(b.getVolumeInfo().getAuthors(), b.getVolumeInfo().getTitle(), b.getVolumeInfo().getPublisher()));
+                    }
+                    int index = 0;
+                    for (Book b : books) {
+                        System.out.printf("Book No. %d\n", index++);
+                        printBook(b);
+                    }
+                    System.out.println("Enter Book No. [0-4] to add Book to reading list; 0 to cancel.");
+                    input = reader.readLine();
 
-                readingList.add(readingListController.getReadingListSelection(books,Integer.parseInt(input)));
-
+                    readingList.add(readingListController.getReadingListSelection(books, Integer.parseInt(input)));
+                }
+                else{
+                    System.out.println("No results");
+                }
             }
             else if(input.equalsIgnoreCase("r")){
                 printReadingList(readingList);
             }
-            else{
+            else if(input.equalsIgnoreCase("q")){
                 status = 0;
             }
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (NumberFormatException e){
+            else{
+                System.out.println("Invalid command.");
+            }
+        } catch (Exception e){
             System.err.println("Please enter a numeric value for reading list selection");
         }
         if(status != 0)
@@ -112,7 +118,6 @@ public class CLIController {
         }
         catch (IOException e){
             System.err.println("I/O exception");
-            e.printStackTrace();
         }
     }
 }

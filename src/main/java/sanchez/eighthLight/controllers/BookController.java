@@ -17,14 +17,12 @@ public class BookController {
      * @return Volume containing all books.
      */
     public Volume getBookList(String query){
-
         JSONUtility jsonUtility = new JSONUtility();
         APIClient booksApiClient = new APIClient(jsonUtility.readApiKey());
 
         String list = booksApiClient.getBooks(query);
 
         Volume results = new Gson().fromJson(list, Volume.class);
-
 
         return results;
     }

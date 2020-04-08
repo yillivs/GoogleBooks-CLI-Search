@@ -9,9 +9,9 @@ Program searches the GoogleBooksAPI for a user query.
 `BookUtil/target/`<br/>
 -Contains compiled source files as well as executable JAR file.<br/>
 
-To run the program execute the JAR within the target folder using your local java compiler. Will look something like
+To run the program execute the JAR within the target folder from the top-level project folder using your local java compiler.
 
-`java -jar target/bookutil-1.0-SNAPSHOT-jar-with-dependencies.jar`
+`java -jar target/bookutil-1.0-jar-with-dependencies.jar`
 
 This project was compiled with Maven. If you have maven installed and the target package get's corrupted you can run
 

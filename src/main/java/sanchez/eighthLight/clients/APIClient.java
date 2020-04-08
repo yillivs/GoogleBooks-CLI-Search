@@ -1,17 +1,13 @@
 package sanchez.eighthLight.clients;
 
-import java.io.UnsupportedEncodingException;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.TimeoutException;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
-
 
 
 public class APIClient {
@@ -41,8 +37,7 @@ public class APIClient {
      * @return JSON String with response from API
      */
     public String getBooks(String query){
-        try
-        {
+        try {
             String encodedQuery = URLEncoder.encode(query, StandardCharsets.UTF_8.toString());
 
             HttpRequest request = HttpRequest.newBuilder().GET()
@@ -53,18 +48,10 @@ public class APIClient {
             CompletableFuture<HttpResponse<String>> response =
                     httpClient.sendAsync(request, HttpResponse.BodyHandlers.ofString());
 
-
             return response.thenApply(HttpResponse::body).get(5, TimeUnit.SECONDS);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (ExecutionException e) {
-            e.printStackTrace();
-        } catch (TimeoutException e) {
-            System.err.println("Google API's timeout, could not retreive CompletableFuture in given timeframe.");
+        } catch (Exception e) {
+            System.err.println("Exception :" + e.getMessage() + " has occurred");
         }
-         catch (UnsupportedEncodingException e){
-            e.printStackTrace();
-         }
         return "404";
     }
 }
