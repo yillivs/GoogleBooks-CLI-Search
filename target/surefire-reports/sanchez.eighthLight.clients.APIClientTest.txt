@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: sanchez.eighthLight.clients.APIClientTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.288 s <<< FAILURE! - in sanchez.eighthLight.clients.APIClientTest
-testGet(sanchez.eighthLight.clients.APIClientTest)  Time elapsed: 1.262 s  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<books#volume[s]> but was:<books#volume[]>
-	at sanchez.eighthLight.clients.APIClientTest.testGet(APIClientTest.java:20)
-

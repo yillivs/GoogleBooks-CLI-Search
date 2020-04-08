@@ -15,6 +15,6 @@ public class BookControllerTest {
 
         Volume result =  test.getBookList(query);
 
-        assertEquals(result.getKind(), "books#volume");
+        assertEquals(result.getKind(), "books#volumes");
     }
 }

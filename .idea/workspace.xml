@@ -7,75 +7,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37237e7c-a9b1-4036-a6fa-708c2631a530" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookUtil_jar/BookUtil 2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookUtil_jar/BookUtil 3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookUtil_jar/BookUtil 4.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/test.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sanchez/eighthLight/controllers/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sanchez/eighthLight/controllers/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sanchez/eighthLight/controllers/CLIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sanchez/eighthLight/controllers/CLIController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sanchez/eighthLight/controllers/ReadingListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sanchez/eighthLight/controllers/ReadingListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sanchez/eighthLight/models/Volume.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sanchez/eighthLight/models/Volume.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/sanchez/eighthLight/clients/APIClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sanchez/eighthLight/clients/APIClientTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/sanchez/eighthLight/controllers/BookControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sanchez/eighthLight/controllers/BookControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookutil-1.0-SNAPSHOT 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookutil-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/BookUtil.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/Main 2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/Main 3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/Main 4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/Main 5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/Main 6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/classes/Book 2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/classes/Book 3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/clients/APIClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/clients/APIClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/controllers/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/controllers/BookController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/controllers/CLIController 2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/controllers/CLIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/controllers/CLIController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/controllers/ReadingListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/controllers/ReadingListController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Volume$Items$AccessInfo$Epub.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Volume$Items$AccessInfo$Epub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Volume$Items$AccessInfo$Pdf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Volume$Items$AccessInfo$Pdf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Volume$Items$AccessInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Volume$Items$AccessInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Volume$Items$SaleInfo$ListPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Volume$Items$SaleInfo$ListPrice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Volume$Items$SaleInfo$Offers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Volume$Items$SaleInfo$Offers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Volume$Items$SaleInfo$RetailPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Volume$Items$SaleInfo$RetailPrice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Volume$Items$SaleInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Volume$Items$SaleInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Volume$Items$SearchInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Volume$Items$SearchInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Volume$Items$VolumeInfo$ImageLinks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Volume$Items$VolumeInfo$ImageLinks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Volume$Items$VolumeInfo$IndustryIdentifiers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Volume$Items$VolumeInfo$IndustryIdentifiers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Volume$Items$VolumeInfo$ReadingModes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Volume$Items$VolumeInfo$ReadingModes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Volume$Items$VolumeInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Volume$Items$VolumeInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Volume$Items.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Volume$Items.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Volume.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/models/Volume.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/utilities/JSONUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sanchez/eighthLight/utilities/JSONUtility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom 2.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookutil-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookutil-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles 3.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles 3.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles 3.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles 3.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-sanchez.eighthLight.MainTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-sanchez.eighthLight.MainTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-sanchez.eighthLight.clients.APIClientTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-sanchez.eighthLight.clients.APIClientTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-sanchez.eighthLight.controllers.BookControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-sanchez.eighthLight.controllers.BookControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-sanchez.eighthLight.controllers.CLIControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-sanchez.eighthLight.controllers.CLIControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-sanchez.eighthLight.controllers.ReadingListControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-sanchez.eighthLight.controllers.ReadingListControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-sanchez.eighthLight.models.BookTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-sanchez.eighthLight.models.BookTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-sanchez.eighthLight.models.VolumeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-sanchez.eighthLight.models.VolumeTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-sanchez.eighthLight.utilities.JSONUtilityTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-sanchez.eighthLight.utilities.JSONUtilityTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/sanchez.eighthLight.MainTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/sanchez.eighthLight.MainTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/BookUtil 2.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/BookUtil.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sanchez/eighthLight/MainTest 2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sanchez/eighthLight/MainTest 3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sanchez/eighthLight/MainTest 4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sanchez/eighthLight/MainTest 5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sanchez/eighthLight/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sanchez/eighthLight/MainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sanchez/eighthLight/classes/BookTest 2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sanchez/eighthLight/classes/BookTest 3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sanchez/eighthLight/classes/BookTest 4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sanchez/eighthLight/classes/BookTest 5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/sanchez.eighthLight.clients.APIClientTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/sanchez.eighthLight.clients.APIClientTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/sanchez.eighthLight.controllers.BookControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/sanchez.eighthLight.controllers.BookControllerTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/sanchez/eighthLight/clients/APIClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sanchez/eighthLight/clients/APIClientTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/sanchez/eighthLight/controllers/BookControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sanchez/eighthLight/controllers/BookControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sanchez/eighthLight/controllers/CLIControllerTest 2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sanchez/eighthLight/controllers/CLIControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sanchez/eighthLight/controllers/CLIControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sanchez/eighthLight/controllers/ReadingListControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sanchez/eighthLight/controllers/ReadingListControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sanchez/eighthLight/models/BookTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sanchez/eighthLight/models/BookTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sanchez/eighthLight/models/VolumeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sanchez/eighthLight/models/VolumeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sanchez/eighthLight/utilities/JSONUtilityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sanchez/eighthLight/utilities/JSONUtilityTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -105,7 +61,19 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/sanchez/eighthLight/clients/APIClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="258">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/sanchez/eighthLight/controllers/BookControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,8 +105,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="91" column="31" selection-start-line="91" selection-start-column="31" selection-end-line="91" selection-end-column="31" />
+            <state relative-caret-position="182">
+              <caret line="53" column="50" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -443,30 +420,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/sanchez/eighthLight/controllers/ReadingListControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/sanchez/eighthLight/utilities/JSONUtilityTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -486,7 +439,6 @@
         <option value="$PROJECT_DIR$/src/test/java/sanchez/eighthlight/AppTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/sanchez/eighthLight/AppTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/sanchez/eighthLight/MainTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/src/test/java/sanchez/eighthLight/classes/BookTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/sanchez/eighthLight/classes/Book.java" />
         <option value="$PROJECT_DIR$/src/test/java/sanchez/eighthLight/classes/BookTest 2.java" />
@@ -502,12 +454,13 @@
         <option value="$PROJECT_DIR$/src/test/java/sanchez/eighthLight/controllers/ReadingListControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/sanchez/eighthLight/clients/APIClient.java" />
         <option value="$PROJECT_DIR$/resources/test.json" />
-        <option value="$PROJECT_DIR$/src/test/java/sanchez/eighthLight/clients/APIClientTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/sanchez/eighthLight/controllers/BookControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/sanchez/eighthLight/models/Volume.java" />
         <option value="$PROJECT_DIR$/src/main/java/sanchez/eighthLight/controllers/ReadingListController.java" />
         <option value="$PROJECT_DIR$/src/main/java/sanchez/eighthLight/controllers/BookController.java" />
         <option value="$PROJECT_DIR$/src/main/java/sanchez/eighthLight/controllers/CLIController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/sanchez/eighthLight/clients/APIClientTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/sanchez/eighthLight/controllers/BookControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
@@ -536,18 +489,6 @@
           <item name="bookutil" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="bookutil" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="deploy" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="bookutil" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="install" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
       </expand>
       <select />
     </treeState>
@@ -573,20 +514,28 @@
             <path>
               <item name="BookUtil" type="b2602c69:ProjectViewProjectNode" />
               <item name="BookUtil" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BookUtil" type="b2602c69:ProjectViewProjectNode" />
               <item name="BookUtil" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BookUtil" type="b2602c69:ProjectViewProjectNode" />
               <item name="BookUtil" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="BookUtil_jar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BookUtil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookUtil" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BookUtil" type="b2602c69:ProjectViewProjectNode" />
@@ -603,7 +552,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586303362726" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586307152787" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -623,7 +572,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JAR Application.bookutil-1.0-SNAPSHOT.jar">
+  <component name="RunManager" selected="JAR Application.bookutil-1.0-SNAPSHOT-jar-with-dependencies.jar">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sanchez.eighthLight.Main" />
       <module name="BookUtil" />
@@ -649,8 +598,8 @@
       <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/BookUtil_jar/BookUtil 4.jar" />
       <method v="2" />
     </configuration>
-    <configuration name="bookutil-1.0-SNAPSHOT 2.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/target/bookutil-1.0-SNAPSHOT 2.jar" />
+    <configuration name="bookutil-1.0-SNAPSHOT-jar-with-dependencies.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/bookutil-1.0-SNAPSHOT-jar-with-dependencies.jar" />
       <method v="2" />
     </configuration>
     <configuration name="bookutil-1.0-SNAPSHOT.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
@@ -660,18 +609,18 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JAR Application.bookutil-1.0-SNAPSHOT.jar" />
-      <item itemvalue="JAR Application.bookutil-1.0-SNAPSHOT 2.jar" />
       <item itemvalue="JAR Application.BookUtil 2.jar" />
       <item itemvalue="JAR Application.BookUtil 3.jar" />
       <item itemvalue="JAR Application.BookUtil 4.jar" />
+      <item itemvalue="JAR Application.bookutil-1.0-SNAPSHOT-jar-with-dependencies.jar" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.bookutil-1.0-SNAPSHOT-jar-with-dependencies.jar" />
         <item itemvalue="JAR Application.bookutil-1.0-SNAPSHOT.jar" />
         <item itemvalue="JAR Application.BookUtil 2.jar" />
         <item itemvalue="JAR Application.BookUtil 4.jar" />
         <item itemvalue="JAR Application.BookUtil 3.jar" />
-        <item itemvalue="JAR Application.bookutil-1.0-SNAPSHOT 2.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -685,7 +634,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586114278215</updated>
-      <workItem from="1586114279492" duration="41391000" />
+      <workItem from="1586114279492" duration="42516000" />
     </task>
     <servers />
   </component>
@@ -722,7 +671,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41391000" />
+    <option name="totallyTimeSpent" value="42516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="796" extended-state="6" />
@@ -803,13 +752,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -898,16 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="62" column="111" selection-start-line="62" selection-start-column="111" selection-end-line="62" selection-end-column="111" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sanchez/eighthLight/controllers/BookControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1246,6 +1178,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sanchez/eighthLight/clients/APIClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sanchez/eighthLight/controllers/BookControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sanchez/eighthLight/models/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1253,20 +1205,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sanchez/eighthLight/clients/APIClientTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="91" column="31" selection-start-line="91" selection-start-column="31" selection-end-line="91" selection-end-column="31" />
+        <state relative-caret-position="182">
+          <caret line="53" column="50" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
         </state>
       </provider>
     </entry>

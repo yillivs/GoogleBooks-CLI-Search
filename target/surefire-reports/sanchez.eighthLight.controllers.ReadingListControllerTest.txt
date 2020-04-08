@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: sanchez.eighthLight.controllers.ReadingListControllerTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in sanchez.eighthLight.controllers.ReadingListControllerTest

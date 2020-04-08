@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: sanchez.eighthLight.controllers.BookControllerTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.375 s <<< FAILURE! - in sanchez.eighthLight.controllers.BookControllerTest
-testGetBookList(sanchez.eighthLight.controllers.BookControllerTest)  Time elapsed: 0.375 s  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<books#volume[s]> but was:<books#volume[]>
-	at sanchez.eighthLight.controllers.BookControllerTest.testGetBookList(BookControllerTest.java:18)
-

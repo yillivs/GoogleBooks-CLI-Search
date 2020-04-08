@@ -17,6 +17,6 @@ public class APIClientTest {
         Volume volume = bookController.getBookList(query);
 
 
-        assertEquals(volume.getKind(), "books#volume");
+        assertEquals(volume.getKind(), "books#volumes");
     }
 }
