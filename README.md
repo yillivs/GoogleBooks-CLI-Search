@@ -1,15 +1,13 @@
 Program searches the GoogleBooksAPI for a user query.
-
-BookUtil/
-            SRC/
-                main/java/sanchez.eighthLight/
-                -->Contains source files
-                test/java/sanchez.eighthLight/
-                -->Contains test   files
-            Doc/
-                -->Contains all JavaDocs with class definitions
-            target/
-                -->Contains compiled source files as well as executable JAR file.
+<br/>
+BookUtil/SRC/main/java/sanchez.eighthLight/<br/>
+            -->Contains source files<br/>
+            BookUtil/SRC/test/java/sanchez.eighthLight/<br/>
+            -->Contains test   files<br/>
+            Doc/<br/>
+            -->Contains all JavaDocs with class definitions<br/>
+            target/<br/>
+            -->Contains compiled source files as well as executable JAR file.<br/>
 
 To run the program excecute the JAR within the target folder using your local java compiler. Will look something like
 
