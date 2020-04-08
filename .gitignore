@@ -1,0 +1,3 @@
+##Ignore Local Build Files ##
+/.classpath
+/*.project
