@@ -1,3 +1,5 @@
 ##Ignore Local Build Files ##
 /.classpath
 /*.project
+/.settings
+/.idea
