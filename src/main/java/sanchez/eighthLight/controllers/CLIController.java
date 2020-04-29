@@ -11,6 +11,30 @@ import java.util.ArrayList;
 
 public class CLIController {
 
+    private static ReadingListController readingList;
+    private static BookController bookController;
+
+    public CLIController(){
+        readingList = new ReadingListController();
+        bookController = new BookController();
+    }
+
+    public static BookController getBookController() {
+        return bookController;
+    }
+
+    public static ReadingListController getReadingList() {
+        return readingList;
+    }
+
+    public void setBookController(BookController bookController) {
+        this.bookController = bookController;
+    }
+
+    public void setReadingList(ReadingListController readingList) {
+        this.readingList = readingList;
+    }
+
 
     /**
      * Print and format Book
@@ -44,48 +68,47 @@ public class CLIController {
      * Method handles retrieval of list of books and selection to add to reading list
      * @param readingList list of books that correspond to reading list
      * @param reader reader for user input
-     * @param bookController book controller for call
      * @param readingListController controller for reading list manipulation
      * @return status 0 if user wants to quit; 1 to continue.
      */
-    public static int cliBooksQuery(ArrayList<Book> readingList,BufferedReader reader, BookController bookController, ReadingListController readingListController){
+    public static int cliBooksQuery(ArrayList<Book> readingList,BufferedReader reader, ReadingListController readingListController){
         String input;
         int status = 1;
         ArrayList<Book> books = new ArrayList<>();
         try {
             input = reader.readLine();
-
-            if(input.equalsIgnoreCase("s")){
-            System.out.println("Enter a query");
-            input = reader.readLine();
-            Volume volume = bookController.getBookList(input);
-
-                if(Integer.parseInt(volume.getTotalItems()) > 0) {
-                    for (Volume.Items b : volume.getItems()) {
-                        books.add(new Book(b.getVolumeInfo().getAuthors(), b.getVolumeInfo().getTitle(), b.getVolumeInfo().getPublisher()));
-                    }
-                    int index = 0;
-                    for (Book b : books) {
-                        System.out.printf("Book No. %d\n", index++);
-                        printBook(b);
-                    }
-                    System.out.println("Enter Book No. [0-4] to add Book to reading list; 0 to cancel.");
+            switch(input.toLowerCase()) {
+                case "s":
+                    System.out.println("Enter a query");
                     input = reader.readLine();
+                    Volume volume = getBookController().getBookList(input);
 
-                    readingList.add(readingListController.getReadingListSelection(books, Integer.parseInt(input)));
-                }
-                else{
-                    System.out.println("No results");
-                }
-            }
-            else if(input.equalsIgnoreCase("r")){
-                printReadingList(readingList);
-            }
-            else if(input.equalsIgnoreCase("q")){
-                status = 0;
-            }
-            else{
-                System.out.println("Invalid command.");
+                    if (Integer.parseInt(volume.getTotalItems()) > 0) {
+                        for (Volume.Items b : volume.getItems()) {
+                            books.add(new Book(b.getVolumeInfo().getAuthors(), b.getVolumeInfo().getTitle(), b.getVolumeInfo().getPublisher()));
+                        }
+                        int index = 0;
+                        for (Book b : books) {
+                            System.out.printf("Book No. %d\n", index++);
+                            printBook(b);
+                        }
+                        System.out.println("Enter Book No. [0-4] to add Book to reading list; 0 to cancel.");
+                        input = reader.readLine();
+
+                        readingList.add(readingListController.getReadingListSelection(books, Integer.parseInt(input)));
+                    } else {
+                        System.out.println("No results");
+                    }
+                    break;
+                case "r":
+                    printReadingList(readingList);
+                    break;
+                case "q":
+                    status = 0;
+                    break;
+                default:
+                    System.out.println("Invalid command.");
+                    break;
             }
         } catch (Exception e){
             System.err.println("Please enter a numeric value for reading list selection " + e.getMessage());
@@ -110,7 +133,7 @@ public class CLIController {
             int flag = 1;
 
             do {
-                flag = cliBooksQuery(readingList ,reader, bookController, readingListController);
+                flag = cliBooksQuery(readingList ,reader, readingListController);
             } while (flag != 0);
 
             reader.close();
