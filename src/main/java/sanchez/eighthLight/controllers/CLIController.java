@@ -1,6 +1,5 @@
 package sanchez.eighthLight.controllers;
 
-
 import sanchez.eighthLight.models.Book;
 import sanchez.eighthLight.models.Volume;
 
@@ -26,15 +25,6 @@ public class CLIController {
     public static ReadingListController getReadingList() {
         return readingList;
     }
-
-    public void setBookController(BookController bookController) {
-        this.bookController = bookController;
-    }
-
-    public void setReadingList(ReadingListController readingList) {
-        this.readingList = readingList;
-    }
-
 
     /**
      * Print and format Book
@@ -65,16 +55,29 @@ public class CLIController {
     }
 
     /**
+     * Creates a list of books from a volume
+     * @param volume object representing a group of books
+     * @return arraylist of books
+     */
+    public static ArrayList<Book> getBooksFromVolume(Volume volume){
+        ArrayList<Book> result = new ArrayList<>();
+        for (Volume.Items b : volume.getItems()) {
+            result.add(new Book(b.getVolumeInfo().getAuthors(), b.getVolumeInfo().getTitle(), b.getVolumeInfo().getPublisher()));
+        }
+
+        return result;
+    }
+
+    /**
      * Method handles retrieval of list of books and selection to add to reading list
      * @param readingList list of books that correspond to reading list
      * @param reader reader for user input
-     * @param readingListController controller for reading list manipulation
      * @return status 0 if user wants to quit; 1 to continue.
      */
-    public static int cliBooksQuery(ArrayList<Book> readingList,BufferedReader reader, ReadingListController readingListController){
+    public static int cliBooksQuery(ArrayList<Book> readingList, BufferedReader reader){
         String input;
         int status = 1;
-        ArrayList<Book> books = new ArrayList<>();
+        ArrayList<Book> books;
         try {
             input = reader.readLine();
             switch(input.toLowerCase()) {
@@ -84,9 +87,7 @@ public class CLIController {
                     Volume volume = getBookController().getBookList(input);
 
                     if (Integer.parseInt(volume.getTotalItems()) > 0) {
-                        for (Volume.Items b : volume.getItems()) {
-                            books.add(new Book(b.getVolumeInfo().getAuthors(), b.getVolumeInfo().getTitle(), b.getVolumeInfo().getPublisher()));
-                        }
+                        books = getBooksFromVolume(volume);
                         int index = 0;
                         for (Book b : books) {
                             System.out.printf("Book No. %d\n", index++);
@@ -95,7 +96,7 @@ public class CLIController {
                         System.out.println("Enter Book No. [0-4] to add Book to reading list; 0 to cancel.");
                         input = reader.readLine();
 
-                        readingList.add(readingListController.getReadingListSelection(books, Integer.parseInt(input)));
+                        readingList.add(getReadingList().getReadingListSelection(books, Integer.parseInt(input)));
                     } else {
                         System.out.println("No results");
                     }
@@ -122,8 +123,6 @@ public class CLIController {
      * Runs application
      */
     public static void run(){
-        BookController bookController = new BookController();
-        ReadingListController readingListController = new ReadingListController();
         ArrayList<Book> readingList = new ArrayList<>();
 
         try {
@@ -133,7 +132,7 @@ public class CLIController {
             int flag = 1;
 
             do {
-                flag = cliBooksQuery(readingList ,reader, readingListController);
+                flag = cliBooksQuery(readingList ,reader);
             } while (flag != 0);
 
             reader.close();
