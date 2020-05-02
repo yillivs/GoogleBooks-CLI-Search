@@ -2,50 +2,73 @@ package sanchez.eighthLight.controllers;
 
 import org.junit.Test;
 import sanchez.eighthLight.models.Book;
-import sanchez.eighthLight.models.Volume;
 
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;
-import static sanchez.eighthLight.controllers.CLIController.getBooksFromVolume;
+import static org.junit.Assert.assertNotEquals;
+import static sanchez.eighthLight.controllers.CLIController.printBook;
+import static sanchez.eighthLight.controllers.CLIController.printReadingList;
 
 public class CLIControllerTest {
 
+    /**
+     * Creates an instance of a book. Tests it's equality against a
+     * mock book instance.
+     */
     @Test
     public void testPrintBook(){
+        String[] authors = {"jk rowling"};
+        Book testBook = new Book(authors ,"yo","hey");
+        StringBuilder sb = new StringBuilder();
 
+        String result = printBook(testBook);
+        sb.append(String.format("Title: '%s'", "yo"));
+        sb.append("\nAuthor(s): ");
+        for (String author : authors) {
+            sb.append(author + " ");
+        }
+        sb.append(String.format("\nPublisher: '%s'\n-----------\n", "hey"));
+
+        assertEquals(result,sb.toString());
+        assertNotEquals(sb.toString(), "Not equal to this");
+    }
+    @Test
+    public void testReadingList(){
+        String[] authors1 = {"jk rowling"};
+        Book testBook = new Book(authors1 ,"yo","hey");
+        String[] authors2 = {"tzu"};
+        Book testBook2 = new Book(authors2, "sun", "what");
+
+        ArrayList<Book> mock = new ArrayList<>();
+        mock.add(testBook);
+        mock.add(testBook2);
+
+        String result = printReadingList(mock);
+
+        String assertion = "Reading List:\n" +
+                "Title: 'yo'\n" +
+                "Author(s): jk rowling \n" +
+                "Publisher: 'hey'\n" +
+                "-----------\n" +
+                "Title: 'sun'\n" +
+                "Author(s): tzu \n" +
+                "Publisher: 'what'\n" +
+                "-----------\n";
+
+        String inequal = "Reading List:\n" +
+                "Title: 'yo'\n" +
+                "Author(s): jk rowling \n" +
+                "Publisher: 'hey'\n" +
+                "-----------\n" +
+                "Title: 'sinner'\n" +
+                "Author(s): tzu \n" +
+                "Publisher: 'what'\n" +
+                "-----------\n";
+
+        assertEquals(assertion, result);
+        assertNotEquals(inequal, result);
     }
 
-
-    @Test
-    public void testCliQuery(){
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        CLIController testController = new CLIController();
-        BookController bookController = new BookController();
-        }
-
-    @Test
-    public void testGetBooksFromVolume() {
-        BookController bookController = new BookController();
-        Volume testVolume = bookController.getBookList("Harry Potter");
-
-        ArrayList<Book> mockBooks = new ArrayList<>();
-        ArrayList<Book> assertionBooks = getBooksFromVolume(testVolume);
-        String[] titles = {"Fantastic Beasts and Where to Find Them", "Harry Potter: The Complete Collection (1-7)",
-                "Harry Potter and the Goblet of Fire", "Harry Potter and the Philosopher's Stone", "Harry Potter and the Sorcerer's Stone"};
-        String[] authors = {"J.K. Rowling Newt Scamander ", "J.K. Rowling ", "J. K. Rowling Mary GrandPré ", " J K Rowling "
-                , "J. K. Rowling "};
-        String[] publishers = {"Pottermore Publishing", "Pottermore Publishing", "Scholastic Paperbacks", "null", "Arthur A. Levine Books"};
-        for (int i = 0; i < 5; i++) {
-            ArrayList<String> authorList = new ArrayList<>();
-            authorList.add(authors[i]);
-            mockBooks.add(new Book(authorList.toArray(new String[authorList.size()]), titles[i], publishers[i]));
-        }
-        for (int i = 0; i < assertionBooks.size(); i++) {
-            assertEquals(assertionBooks.get(i).getTitle(), mockBooks.get(i).getTitle());
-        }
-    }
 }

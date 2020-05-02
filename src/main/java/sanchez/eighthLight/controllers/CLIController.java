@@ -18,40 +18,48 @@ public class CLIController {
         bookController = new BookController();
     }
 
-    public static BookController getBookController() {
+    private static BookController getBookController() {
         return bookController;
     }
 
-    public static ReadingListController getReadingList() {
+    private static ReadingListController getReadingList() {
         return readingList;
     }
 
     /**
      * Print and format Book
      * @param book book to be printed
+     * @return string of printed value.
      */
-    private static void printBook(Book book){
-        System.out.printf("Title: '%s'", book.getTitle());
+    public static String printBook(Book book){
+        StringBuilder sb = new StringBuilder();
+        sb.append(String.format("Title: '%s'", book.getTitle()));
 
         if(book.getAuthor() != null) {
-            System.out.print("\nAuthor(s): ");
+            sb.append("\nAuthor(s): ");
             for (String author : book.getAuthor()) {
-                System.out.print(author + " ");
+                sb.append(author + " ");
             }
         }
-        System.out.printf("\nPublisher: '%s'\n-----------\n", book.getPublisher());
+        sb.append(String.format("\nPublisher: '%s'\n-----------\n", book.getPublisher()));
 
+        System.out.printf(sb.toString());
+
+        return sb.toString();
     }
 
     /**
      * Print and format reading list
      * @param readingList list of books to be printed
      */
-    private static void printReadingList(ArrayList<Book> readingList){
+    public static String printReadingList(ArrayList<Book> readingList){
+        StringBuilder sb = new StringBuilder();
         System.out.println("Reading List:");
+        sb.append("Reading List:\n");
         for(Book book: readingList){
-            printBook(book);
+            sb.append(printBook(book));
         }
+        return sb.toString();
     }
 
     /**
@@ -129,7 +137,7 @@ public class CLIController {
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
             System.out.println("Enter one of the following commands.\n's': Search\n'q': Quit");
-            int flag = 1;
+            int flag;
 
             do {
                 flag = cliBooksQuery(readingList ,reader);
