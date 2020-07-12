@@ -1,13 +1,9 @@
 Program searches the GoogleBooksAPI for a user query.
 <br/>
-`BookUtil/SRC/main/java/sanchez.eighthLight/`<br/>
-  ‣Contains source files<br/>
-`BookUtil/SRC/test/java/sanchez.eighthLight/`<br/>
-  ‣Contains test files<br/>
-`BookUtil/Doc/`<br/>
-  ‣Contains all JavaDocs with class definitions<br/>
-`BookUtil/target/`<br/>
-  ‣Contains compiled source files as well as executable JAR file.<br/>
+  ‣Contains source files<br/>`BookUtil/SRC/main/java/sanchez.eighthLight/`<br/>
+  ‣Contains test files<br/>`BookUtil/SRC/test/java/sanchez.eighthLight/`<br/>
+  ‣Contains all JavaDocs with class definitions<br/>`BookUtil/Doc/`<br/>
+  ‣Contains compiled source files as well as executable JAR file.<br/>`BookUtil/target/`<br/>
 
 To run the program execute the JAR within the target folder from the top-level project folder using your local java compiler.
 
